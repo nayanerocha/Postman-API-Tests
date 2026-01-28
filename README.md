@@ -60,14 +60,13 @@ postman-api-tests/
 │   ├── lastfm/                          # Prints das consultas musicais
 │   └── openlibrary/                     # Prints das consultas de livros
 └── README.md                            # Este arquivo
+
 🚀 Como Executar os Testes
 📦 Pré-requisitos:
 
-Postman instalado (Download aqui
-)
+Postman instalado (Download aqui)
 
-API Key do Last.fm (Criar conta aqui
-) — 📎 Requerida apenas para as requisições do Last.fm
+API Key do Last.fm (Criar conta aqui) — 📎 Requerida apenas para as requisições do Last.fm
 
 ▶️ Passo a Passo:
 
