@@ -1,0 +1,220 @@
+{
+  "info": {
+    "_postman_id": "fc3f954c-dd10-4211-921b-a8b84f60c351",
+    "name": "Last.fm API - Testes de Leitura",
+    "description": "Testes de requisições GET na API do Last.fm para busca de artistas, álbuns e músicas.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51677145",
+    "_collection_link": "https://go.postman.co/collection/51677145-fc3f954c-dd10-4211-921b-a8b84f60c351?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET - Buscar Artista",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Radiohead&api_key={{api_key}}&format=json",
+          "protocol": "http",
+          "host": [
+            "ws",
+            "audioscrobbler",
+            "com"
+          ],
+          "path": [
+            "2.0",
+            ""
+          ],
+          "query": [
+            {
+              "key": "method",
+              "value": "artist.getinfo"
+            },
+            {
+              "key": "artist",
+              "value": "Radiohead"
+            },
+            {
+              "key": "api_key",
+              "value": "{{api_key}}"
+            },
+            {
+              "key": "format",
+              "value": "json"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - Top Álbuns do Artista",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=Coldplay&api_key={{api_key}}&format=json",
+          "protocol": "http",
+          "host": [
+            "ws",
+            "audioscrobbler",
+            "com"
+          ],
+          "path": [
+            "2.0",
+            ""
+          ],
+          "query": [
+            {
+              "key": "method",
+              "value": "artist.gettopalbums"
+            },
+            {
+              "key": "artist",
+              "value": "Coldplay"
+            },
+            {
+              "key": "api_key",
+              "value": "{{api_key}}"
+            },
+            {
+              "key": "format",
+              "value": "json"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - Artistas Similares",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://ws.audioscrobbler.com/2.0/?method=artist.getsimilar&artist=Nirvana&api_key={{api_key}}&format=json",
+          "protocol": "http",
+          "host": [
+            "ws",
+            "audioscrobbler",
+            "com"
+          ],
+          "path": [
+            "2.0",
+            ""
+          ],
+          "query": [
+            {
+              "key": "method",
+              "value": "artist.getsimilar"
+            },
+            {
+              "key": "artist",
+              "value": "Nirvana"
+            },
+            {
+              "key": "api_key",
+              "value": "{{api_key}}"
+            },
+            {
+              "key": "format",
+              "value": "json"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - Informações do Álbum",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&artist=Pink Floyd&album=The Dark Side of the Moon&api_key={{api_key}}&format=json",
+          "protocol": "http",
+          "host": [
+            "ws",
+            "audioscrobbler",
+            "com"
+          ],
+          "path": [
+            "2.0",
+            ""
+          ],
+          "query": [
+            {
+              "key": "method",
+              "value": "album.getinfo"
+            },
+            {
+              "key": "artist",
+              "value": "Pink Floyd"
+            },
+            {
+              "key": "album",
+              "value": "The Dark Side of the Moon"
+            },
+            {
+              "key": "api_key",
+              "value": "{{api_key}}"
+            },
+            {
+              "key": "format",
+              "value": "json"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - Top Tracks do Artista",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=The Beatles&api_key={{api_key}}&format=json",
+          "protocol": "http",
+          "host": [
+            "ws",
+            "audioscrobbler",
+            "com"
+          ],
+          "path": [
+            "2.0",
+            ""
+          ],
+          "query": [
+            {
+              "key": "method",
+              "value": "artist.gettoptracks"
+            },
+            {
+              "key": "artist",
+              "value": "The Beatles"
+            },
+            {
+              "key": "api_key",
+              "value": "{{api_key}}"
+            },
+            {
+              "key": "format",
+              "value": "json"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

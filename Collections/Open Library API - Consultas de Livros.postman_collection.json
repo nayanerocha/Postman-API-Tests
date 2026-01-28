@@ -1,0 +1,137 @@
+{
+  "info": {
+    "_postman_id": "54f55188-b7fb-46ad-a4d3-46938d12b92e",
+    "name": "Open Library API - Consultas de Livros",
+    "description": "Testes de requisições GET na Open Library para buscar livros, autores e obras.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "51677145",
+    "_collection_link": "https://go.postman.co/collection/51677145-54f55188-b7fb-46ad-a4d3-46938d12b92e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET - Buscar Livro por ISBN",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://openlibrary.org/isbn/9780140328721.json",
+          "protocol": "https",
+          "host": [
+            "openlibrary",
+            "org"
+          ],
+          "path": [
+            "isbn",
+            "9780140328721.json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - Buscar Autor",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://openlibrary.org/authors/OL23919A.json",
+          "protocol": "https",
+          "host": [
+            "openlibrary",
+            "org"
+          ],
+          "path": [
+            "authors",
+            "OL23919A.json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - Buscar Obra",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://openlibrary.org/works/OL45804W.json",
+          "protocol": "https",
+          "host": [
+            "openlibrary",
+            "org"
+          ],
+          "path": [
+            "works",
+            "OL45804W.json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - Buscar Livros por Título",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://openlibrary.org/search.json?title=lord+of+the+rings",
+          "protocol": "https",
+          "host": [
+            "openlibrary",
+            "org"
+          ],
+          "path": [
+            "search.json"
+          ],
+          "query": [
+            {
+              "key": "title",
+              "value": "lord+of+the+rings"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - Buscar por autor",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://openlibrary.org/search.json?author=tolkien",
+          "protocol": "https",
+          "host": [
+            "openlibrary",
+            "org"
+          ],
+          "path": [
+            "search.json"
+          ],
+          "query": [
+            {
+              "key": "author",
+              "value": "tolkien"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
