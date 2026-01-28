@@ -261,16 +261,19 @@ Durante este projeto, pratiquei e aprendi:
 
 🔍 Desafios Enfrentados
 Last.fm — Erro 403
-
 Problema: API retornava 403 Forbidden
 Causa: API Key inválida ou limite de requisições
 Solução: Geração de nova API Key e uso moderado de requisições
 
 APIs Públicas — Limitações
-
 Aprendizado: APIs de leitura (Last.fm, Open Library) não permitem POST/PUT/DELETE
 Solução: Uso do JSONPlaceholder para demonstrar operações completas de CRUD
+
 📚 APIs Utilizadas
+Last.fm API: https://www.last.fm/api
+Open Library API: https://openlibrary.org/dev/docs/api
+JSONPlaceholder: https://jsonplaceholder.typecode.com/
+
 Autora
 Nayane Rocha
 GIT:https://github.com/nayanerocha
