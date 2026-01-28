@@ -270,14 +270,14 @@ Aprendizado: APIs de leitura (Last.fm, Open Library) não permitem POST/PUT/DELE
 Solução: Uso do JSONPlaceholder para demonstrar operações completas de CRUD
 
 📚 APIs Utilizadas
-[Last.fm API]: (https://www.last.fm/api)
-[Open Library API]: (https://openlibrary.org/dev/docs/api)
-[JSONPlaceholder]: (https://jsonplaceholder.typecode.com/)
+[Last.fm API](https://www.last.fm/api)
+[Open Library API](https://openlibrary.org/dev/docs/api)
+[JSONPlaceholder](https://jsonplaceholder.typecode.com/)
 
 Autora
 Nayane Rocha
-[GitHub]:(https://github.com/nayanerocha)
-[Linkedin]:(https://www.linkedin.com/in/nayanerocha/)
+[GitHub](https://github.com/nayanerocha)
+[Linkedin](https://www.linkedin.com/in/nayanerocha/)
 
 📄 Licença
 Este projeto é de código aberto e foi criado para fins educacionais.
