@@ -1,5 +1,4 @@
 # Postman-API-Tests
-![Capa do Projeto](capa.png)
 
 # 🧪 Projeto de Testes de API - Múltiplas APIs REST
 > Projeto de estudos em **Quality Assurance**, utilizando **Postman** para testar APIs públicas e operações CRUD completas.
@@ -262,13 +261,11 @@ Durante este projeto, pratiquei e aprendi:
 
 🔍 Desafios Enfrentados
 Last.fm — Erro 403
-
 Problema: API retornava 403 Forbidden
 Causa: API Key inválida ou limite de requisições
 Solução: Geração de nova API Key e uso moderado de requisições
 
 APIs Públicas — Limitações
-
 Aprendizado: APIs de leitura (Last.fm, Open Library) não permitem POST/PUT/DELETE
 Solução: Uso do JSONPlaceholder para demonstrar operações completas de CRUD
 
