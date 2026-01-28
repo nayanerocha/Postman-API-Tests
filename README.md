@@ -1,5 +1,4 @@
 # Postman-API-Tests
-![Capa do Projeto](capa.png)
 
 # 🧪 Projeto de Testes de API - Múltiplas APIs REST
 > Projeto de estudos em **Quality Assurance**, utilizando **Postman** para testar APIs públicas e operações CRUD completas.
@@ -274,7 +273,8 @@ Solução: Uso do JSONPlaceholder para demonstrar operações completas de CRUD
 📚 APIs Utilizadas
 Autora
 Nayane Rocha
-
+GIT:https://github.com/nayanerocha
+Linkedin:https://www.linkedin.com/in/nayanerocha/
 📄 Licença
 
 Este projeto é de código aberto e foi criado para fins educacionais.
