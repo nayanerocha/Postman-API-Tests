@@ -69,9 +69,10 @@ Demonstração de persistência de dados simulada, cobrindo criação de recurso
 * **Tratamento de Erros**: Resolução de erros `403 Forbidden` através da configuração adequada de Headers.
 
 ---
-**Autora: Nayane Rocha** 🐱💕👩‍💻
+## Autora: Nayane Rocha🐱💕👩‍💻
 [GitHub](https://github.com/nayanerocha)
 [Linkedin](https://www.linkedin.com/in/nayanerocha/)
 
----
-*Este projeto é de código aberto e foi criado para fins educacionais.*
+### Licença: 📄
+
+Este projeto é de código aberto e foi criado para fins educacionais.
