@@ -267,7 +267,7 @@ Solução: Uso do JSONPlaceholder para demonstrar operações completas de CRUD
 
 ## 👩‍💻 Autora
 
-**Nayane Rocha**
+### **Nayane Rocha**
 
 * [GitHub](https://github.com/nayanerocha)
 * [LinkedIn](https://www.linkedin.com/in/nayanerocha/)
