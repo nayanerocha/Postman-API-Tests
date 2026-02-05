@@ -257,15 +257,20 @@ APIs Públicas — Limitações
 Aprendizado: APIs de leitura (Last.fm, Open Library) não permitem POST/PUT/DELETE
 Solução: Uso do JSONPlaceholder para demonstrar operações completas de CRUD
 
-📚 APIs Utilizadas
-[Last.fm API](https://www.last.fm/api)
-[Open Library API](https://openlibrary.org/dev/docs/api)
-[JSONPlaceholder](https://jsonplaceholder.typecode.com/)
+## 📚 APIs Utilizadas
 
-Autora
-Nayane Rocha
-[GitHub](https://github.com/nayanerocha)
-[Linkedin](https://www.linkedin.com/in/nayanerocha/)
+* [Last.fm API](https://www.last.fm/api)
+* [Open Library API](https://openlibrary.org/dev/docs/api)
+* [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
+
+---
+
+## 👩‍💻 Autora
+
+**Nayane Rocha**
+
+* [GitHub](https://github.com/nayanerocha)
+* [LinkedIn](https://www.linkedin.com/in/nayanerocha/)
 
 📄 Licença
 Este projeto é de código aberto e foi criado para fins educacionais.
