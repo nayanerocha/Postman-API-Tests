@@ -1,6 +1,5 @@
-# Postman-API-Tests
-
 # 🧪 Projeto de Testes de API - Múltiplas APIs REST
+
 > Projeto de estudos em **Quality Assurance**, utilizando **Postman** para testar APIs públicas e operações CRUD completas.
 
 ---
@@ -12,13 +11,12 @@
 - [Como Executar os Testes](#-como-executar-os-testes)
 - [Cobertura de Testes](#-cobertura-de-testes)
 - [Validações Realizadas](#-validações-realizadas)
+- [📸 Screenshots dos Testes](#-screenshots-dos-testes)
 - [Exemplos de Requisições](#-exemplos-de-requisições)
 - [Aprendizados](#-aprendizados)
 - [Desafios Enfrentados](#-desafios-enfrentados)
-- [Melhorias Futuras](#-melhorias-futuras)
 - [APIs Utilizadas](#-apis-utilizadas)
 - [Autora](#-autora)
-- [Licença](#-licença)
 
 ---
 
@@ -26,12 +24,6 @@
 
 Este projeto foi desenvolvido como parte dos meus estudos em **Quality Assurance**, com foco em testes de **API REST**.  
 Foram testadas 3 APIs diferentes para demonstrar conhecimento em diversos tipos de requisições, métodos HTTP e validações de resposta.
-
-### 🔹 APIs Testadas:
-
-1. **Last.fm API** — Consultas musicais (artistas, álbuns, faixas)
-2. **Open Library API** — Consultas de livros e autores
-3. **JSONPlaceholder API** — Operações CRUD completas (Create, Read, Update, Delete)
 
 ---
 
@@ -50,16 +42,13 @@ Foram testadas 3 APIs diferentes para demonstrar conhecimento em diversos tipos 
 ```bash
 postman-api-tests/
 ├── collections/
-│   ├── lastfm_collection.json           # Testes Last.fm
-│   ├── openlibrary_collection.json      # Testes Open Library
-│   └── jsonplaceholder_collection.json  # Testes CRUD
+│   ├── lastfm_collection.json            # Testes Last.fm
+│   ├── openlibrary_collection.json       # Testes Open Library
+│   └── jsonplaceholder_collection.json   # Testes CRUD
 ├── environments/
-│   └── lastfm_environment.json          # API Key Last.fm
-├── screenshots/
-│   ├── jsonplaceholder/                 # Prints das requisições CRUD
-│   ├── lastfm/                          # Prints das consultas musicais
-│   └── openlibrary/                     # Prints das consultas de livros
-└── README.md                            # Este arquivo
+│   └── lastfm_environment.json           # API Key Last.fm
+├── Screenshots/                          # Prints das requisições organizados por API
+└── README.md                             # Este arquivo
 
 🚀 Como Executar os Testes
 📦 Pré-requisitos:
@@ -280,3 +269,4 @@ Nayane Rocha
 
 📄 Licença
 Este projeto é de código aberto e foi criado para fins educacionais.
+
