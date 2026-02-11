@@ -1,8 +1,8 @@
-# Projeto de Testes de API - Múltiplas APIs REST
+## Projeto de Testes de API - Múltiplas APIs REST
 
 Projeto focado em Quality Assurance para validação de APIs REST, utilizando o **Postman** para cobrir consultas complexas e operações completas de CRUD.
 
-## Plano de Testes e Cobertura
+### Plano de Testes e Cobertura
 
 Abaixo estão as APIs testadas e o status das validações:
 
@@ -14,7 +14,7 @@ Abaixo estão as APIs testadas e o status das validações:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
 * **Postman**: Ferramenta principal para criação e execução das collections.
 * **JSON**: Formato de intercâmbio de dados.
@@ -22,7 +22,7 @@ Abaixo estão as APIs testadas e o status das validações:
 
 ---
 
-## Como Executar os Testes
+### Como Executar os Testes
 
 ### 1. Pré-requisitos
 * Ter o [Postman](https://www.postman.com/downloads/) instalado.
@@ -41,7 +41,7 @@ Abaixo estão as APIs testadas e o status das validações:
 
 ---
 
-## ✅ Validações Realizadas (Checklist)
+### ✅ Validações Realizadas (Checklist)
 
 * [x] **Status Codes**: Validação de retornos esperados como 200 OK e 201 Created.
 * [x] **Contrato**: Verificação se a estrutura do JSON de resposta está correta.
@@ -50,7 +50,7 @@ Abaixo estão as APIs testadas e o status das validações:
 
 ---
 
-## 📝 Detalhes Técnicos
+### 📝 Detalhes Técnicos
 
 ### 🎵 Last.fm (Consultas)
 Validação de parâmetros de consulta (Query Parameters) para buscar informações detalhadas de artistas, álbuns e faixas similares.
@@ -63,13 +63,13 @@ Demonstração de persistência de dados simulada, cobrindo criação de recurso
 
 ---
 
-## 🔍 Desafios e Aprendizados
+### 🔍 Desafios e Aprendizados
 * **Gestão de Ambientes**: Uso de *environments* para proteger e organizar chaves de API de forma segura.
 * **Diferenciação de Verbos**: Prática real da diferença entre `PUT` (substituição total) e `PATCH` (atualização pontual).
 * **Tratamento de Erros**: Resolução de erros `403 Forbidden` através da configuração adequada de Headers.
 
 ---
-## Autora: Nayane Rocha🐱💕👩‍💻
+### Autora: Nayane Rocha🐱💕👩‍💻
 [GitHub](https://github.com/nayanerocha)
 [Linkedin](https://www.linkedin.com/in/nayanerocha/)
 
