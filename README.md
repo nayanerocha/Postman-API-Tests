@@ -1,8 +1,8 @@
-# 🧪 Projeto de Testes de API - Múltiplas APIs REST
+# Projeto de Testes de API - Múltiplas APIs REST
 
 Projeto focado em Quality Assurance para validação de APIs REST, utilizando o **Postman** para cobrir consultas complexas e operações completas de CRUD.
 
-## 📊 Plano de Testes e Cobertura
+## Plano de Testes e Cobertura
 
 Abaixo estão as APIs testadas e o status das validações:
 
@@ -22,7 +22,7 @@ Abaixo estão as APIs testadas e o status das validações:
 
 ---
 
-## 🚀 Como Executar os Testes
+## Como Executar os Testes
 
 ### 1. Pré-requisitos
 * Ter o [Postman](https://www.postman.com/downloads/) instalado.
